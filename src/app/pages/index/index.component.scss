@@ -1,0 +1,16 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .asd{
+    flex: 0 1 100%;
+  }
+}

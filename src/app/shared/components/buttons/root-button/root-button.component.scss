@@ -1,0 +1,16 @@
+:host {
+  display: contents;
+}
+
+.root-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	
+  &.blue {
+    background: var(--main-primary, #003c96);
+  }
+}
